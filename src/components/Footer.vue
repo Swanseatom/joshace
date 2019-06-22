@@ -1,5 +1,5 @@
 <template>
-  <div class="footer container">
+  <div class="footer container-fluid">
     <div class="row">
       <div class="col-12">
         <p class="pt-3">Copyright © 2019 Josh Ace. All rights reserved.</p>

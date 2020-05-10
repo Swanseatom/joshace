@@ -13,9 +13,8 @@ jobs:
         node-version: '10.x'
     - name: npm install, build, and test
       run: |
-        npm install -g yarn
-        yarn install
-        yarn run lint
+        npm i
+        npm run lint
   audit:
     runs-on: ubuntu-latest
     steps:
@@ -26,6 +25,5 @@ jobs:
         node-version: '10.x'
     - name: npm install, build, and test
       run: |
-        npm install -g yarn
-        yarn install
-        yarn audit
+        npm i
+        npm audit

@@ -4,8 +4,8 @@
       <div class="col-12">
         <img
           class="img-fluid"
-          src="../assets/joshacesearching.jpg"
-          alt="Josh Ace Seaching Album Cover"
+          src="../assets/joshace.jpeg"
+          alt="Josh Ace - Album Cover"
         >
       </div>
       <div class="col-12 align-self-center">

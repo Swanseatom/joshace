@@ -14,7 +14,7 @@ import { EmbedBandsInTown } from "../components/EmbedBandsInTown.tsx";
 
 export default function Home(ctx: PageProps) {
   const { url, route} = ctx;
-  const is_shop = route.includes("/merch")
+  const is_shop = route.includes("/shop")
   return (
     <div class={tw`scroll-smooth`}>
       <HeadElement

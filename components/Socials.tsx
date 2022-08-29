@@ -10,27 +10,37 @@ export default function Socials() {
     >
       <a
         class={tw`mx-3`} 
-        href="https://www.facebook.com/joshacemusic/">
+        href="https://www.facebook.com/joshacemusic/"
+        target="_blank"
+      >
         <img class={socialClass} src="/socials/facebook.svg" alt="facebook icon" />
       </a>
       <a
         class={tw`mx-3`}
-        href="https://twitter.com/JoshAceOfficial">
+        href="https://twitter.com/JoshAceOfficial"
+        target="_blank"
+      >
         <img class={socialClass} src="/socials/twitter.svg" alt="facebook icon" />
       </a>
       <a
         class={tw`mx-3`}
-        href="https://soundcloud.com/josh-ace-official">
+        href="https://soundcloud.com/josh-ace-official"
+        target="_blank"
+      >
         <img class={socialClass} src="/socials/soundcloud.svg" alt="facebook icon" />
       </a>
       <a
         class={tw`mx-3`}
-        href="https://www.instagram.com/joshaceofficial/">
+        href="https://www.instagram.com/joshaceofficial/"
+        target="_blank"
+      >
         <img class={socialClass} src="/socials/instagram.svg" alt="facebook icon" />
       </a>
       <a
         class={tw`mx-3`}
-        href="https://www.youtube.com/channel/UCQszkLEFHSXuUe0kr2mpCMQ">
+        href="https://www.youtube.com/channel/UCQszkLEFHSXuUe0kr2mpCMQ"
+        target="_blank"
+      >
           <img class={socialClass} src="/socials/youtube.svg" alt="facebook icon" />
       </a>
       {/* <a

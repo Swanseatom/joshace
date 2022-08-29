@@ -63,7 +63,7 @@ export default function Cart(props: CartProps) {
     if (props.is_shop) {
       ref.current!.showModal()
     } else {
-      window.location = "/merch";
+      window.location = "/shop/merch";
     }
   }
 

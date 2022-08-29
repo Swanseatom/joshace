@@ -9,7 +9,7 @@ import { Footer } from "@/components/Footer.tsx";
 import { HeadElement } from "@/components/HeadElement.tsx";
 import { Header } from "@/components/Header.tsx";
 import IconCart from "@/components/IconCart.tsx";
-import { List, Product } from "../utils/types.ts";
+import { List, Product } from "../../utils/types.ts";
 
 const q = `{
   products(first: 10) {
@@ -48,7 +48,7 @@ export const handler: Handlers<Data> = {
 
 export default function Home(ctx: PageProps<Data>) {
   const { data, url, route} = ctx;
-  const is_shop = route.includes("/merch")
+  const is_shop = route.includes("/shop")
   const products = data.products.nodes;
   return (
     <div>
@@ -81,7 +81,7 @@ export default function Home(ctx: PageProps<Data>) {
 function ProductCard(props: { product: Product }) {
   const { product } = props;
   return (
-    <a key={product.id} href={`/products/${product.handle}`} class={tw`group`}>
+    <a key={product.id} href={`/shop/products/${product.handle}`} class={tw`group`}>
       <div
         class={tw`${
           aspectRatio(1, 1)

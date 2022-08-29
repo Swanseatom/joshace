@@ -63,7 +63,7 @@ export const handler: Handlers<Query> = {
 
 export default function ProductPage(ctx: PageProps<Query>) {
   const { data, url, route } = ctx;
-  const is_shop = route.includes("/merch")
+  const is_shop = route.includes("/shop")
 
   if (!data.product) {
     return <div>Product not found</div>;
@@ -83,7 +83,7 @@ export default function ProductPage(ctx: PageProps<Query>) {
         class={tw`w-11/12 mt-16 max-w-5xl mx-auto flex items-center justify-between relative bg-white p-4 rounded-md`}
       >
         <a
-          href="/merch"
+          href="/shop/merch"
           class={tw`flex items-center gap-2 text-gray-400 hover:text-gray-800 transition-colors duration-200`}
         >
           <svg
